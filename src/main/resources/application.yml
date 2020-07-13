@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    # 禁用缓存
+    cache: false
+
+  devtools:
+    restart:
+      enabled: true
+
+  # 设置国际化
+  messages:
+    basename: i18n.login
