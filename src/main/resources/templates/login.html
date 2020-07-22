@@ -20,7 +20,7 @@
     />
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet" />
+    <link href="/static/css/bootstrap.css" rel="stylesheet" />
 
     <style>
       .bd-placeholder-img {
@@ -39,7 +39,7 @@
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="/css/floating-labels.css" rel="stylesheet" />
+    <link href="/static/css/floating-labels.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -47,14 +47,14 @@
       <div class="text-center mb-4">
         <img
           class="mb-4"
-          src="/brand/bootstrap-solid.svg"
+          src="/static/brand/bootstrap-solid.svg"
           alt=""
           width="72"
           height="72"
         />
         <h1 class="h3 mb-3 font-weight-normal" th:text="#{login.title}"></h1>
 
-<!--        登录错误消息提示-->
+         <!--登录错误消息提示-->
         <p style="color: red;" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
 
       </div>
