@@ -2,6 +2,7 @@ package com.example.demo.dao;
 
 import com.example.demo.pojo.Department;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 

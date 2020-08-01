@@ -49,9 +49,18 @@ spring:
     # 控制台打印sql
     show-sql: true
 
+  # 163邮箱发送邮件
+  mail:
+    host: smtp.163.com
+    port: 25
+    username: moudayemail@163.com
+    password: mouday123
 
+#  redis:
+#    host: 127.0.0.1
 
 mybatis:
+
   # 指定全局配置文件路径
   config-location: classpath:mybatis/mybatis-config.xml
   # 指定mapper文件路径

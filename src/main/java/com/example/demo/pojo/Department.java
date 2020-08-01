@@ -1,6 +1,8 @@
 package com.example.demo.pojo;
 
-public class Department {
+import java.io.Serializable;
+
+public class Department implements Serializable {
     private Integer id;
     private String name;
 
